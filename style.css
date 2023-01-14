@@ -31,7 +31,8 @@ main {
 }
 
 .logo {
-    width: 15vw;
+    width: 180px;
+    height: 100;
     margin-left: 13px;
     margin-top: -10px;
 }
@@ -61,10 +62,10 @@ main {
 .email {
     background-color: #333333;
     color: #8c8c8c;
-    width: 300px;
-    height: 45px;
+    width: 90%;
+    height: 42px;
     border: 1px solid #333333;
-    margin-bottom: 20px;
+    margin-bottom: 4%;
     border-radius: 3px 3px 3px;
     font-size: 15px;
     text-indent: 15px;
@@ -73,9 +74,9 @@ main {
 .senha {
     background-color: #333333;
     color: #8c8c8c;
-    width: 300px;
-    height: 45px;
-    margin-bottom: 40px;
+    width: 90%;
+    height: 42px;
+    margin-bottom: 10%;
     border: 1px solid #333333;
     border-radius: 3px 3px 3px;
     font-size: 15px;
@@ -85,7 +86,7 @@ main {
 .entrar {
     background-color: #e50914;
     color: white;
-    width: 305px;
+    width: 90%;
     height: 45px;
     margin-bottom: 10px;
     border: 1px solid red;
@@ -96,7 +97,7 @@ main {
 
 .checkbox {
     color: #b3b3b3;
-    margin-right: 69px;
+    margin-right: 30%;
     font-size: 13px;
     font-family:'Netflix';
 }
@@ -164,21 +165,23 @@ main {
     text-align: center;
 }
 
-.lista > ul {
-   
-}
 
 .idioma {
     margin-left: 6%
 }
 
 #quatro {
-    margin-left: 4%;
+    width: 100%;
+    margin: auto;
+    text-align: left;
+    margin-left: 6%;
 }
 
 #cinco {
-    margin-left: 0.5%
-    
+    margin: auto;
+    width: 100%;
+    text-align: left;
+    margin-left: 6%;
 }
 
 
