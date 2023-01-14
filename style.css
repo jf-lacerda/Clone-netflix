@@ -1,5 +1,11 @@
 @charset "UFT-8";
 
+@font-face {
+    font-family:'netflix';
+    src: url('netflix.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+
 *{
     padding: 0px;
     margin: 0px;
