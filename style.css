@@ -27,10 +27,11 @@ body {
 main {
     background-color: rgba(0, 0, 0, 0.473);
     box-shadow: inset 60px 100px 100px 50px rgba(0, 0, 0, 0.342);
+    width: 100%;
 }
 
 .logo {
-    width: 205px;
+    width: 15vw;
     margin-left: 13px;
     margin-top: -10px;
 }
