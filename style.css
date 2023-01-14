@@ -1,8 +1,9 @@
 @charset "UFT-8";
 
 @font-face {
-    font-family:'netflix';
-    src: url('netflix.otf') format('opentype');
+    font-family: 'Netflix' ;
+    src: url('fontes/NetflixSans-Regular.otf') format('opentype'), url('fontes/NetflixSans-Regular.otf')
+    format('truetype');
     font-weight: normal;
     font-style: normal;
 }
@@ -13,7 +14,7 @@
 }
 body {
     background: url(imagens/bg.jpg);
-    font-family: 'Netflix Sans light', Courier, monospace;
+    font-family: 'Netflix', Courier, monospace;
     background-size: cover;
     background-position: top left;
     width: 100%;
@@ -48,7 +49,7 @@ main {
 .h1 {
     color: white;
     text-align: left;
-    font-family: 'Netflix Sans Regular';
+    font-family: 'Netflix' ;
     padding: 50px;
     padding-top: 60px;
     padding-bottom: 30px;
@@ -89,20 +90,20 @@ main {
     border: 1px solid red;
     border-radius: 2px;
     font-size: 15px;
-    font-family: 'Netflix Sans';
+    font-family: 'Netflix';
 }
 
 .checkbox {
     color: #b3b3b3;
     margin-right: 69px;
     font-size: 13px;
-    font-family:'Netflix Sans';
+    font-family:'Netflix';
 }
 
 .link1 {
     color: #b3b3b3;
     font-size: 13px;
-    font-family:'Netflix Sans';
+    font-family:'Netflix';
     text-decoration: none;
 }
 
@@ -123,7 +124,7 @@ main {
     padding-top: 70px;
     padding-bottom: 20px;
     font-size: 16px;
-    font-family: 'Netflix Sans Regular', Courier, monospace;
+    font-family: 'Netflix', Courier, monospace;
 }
 
 .p2 {
@@ -131,7 +132,7 @@ main {
     text-align: left;
     padding-left: 50px;
     font-size: 13px;
-    font-family: 'Netflix Sans Regular', Courier, monospace;
+    font-family: 'Netflix', Courier, monospace;
 }
 
 .p3 {
@@ -158,7 +159,7 @@ main {
     padding-bottom: 15px;
     padding-right: 30px;
     font-size: 12px;
-    font-family:'Netflix Sans';
+    font-family:'Netflix';
     line-height: 30px;
 }
 
