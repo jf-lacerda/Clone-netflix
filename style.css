@@ -139,7 +139,7 @@ main {
 .p3 {
     color: #737373;
     padding-top: 20px;
-    padding-left: 60px;
+    margin-left: 6%;
     padding-bottom: 20px;
     font-size: 15px;
 }
@@ -148,24 +148,37 @@ main {
     background-color: rgba(0, 0, 0, 0.712);
     color: white;
     height: 350px;
+    margin: auto;
     
 }
 
 .lista {
     color: #8c8c8c;
-    columns: 3;
+    columns: 5;
     list-style:none;
     color: #737373;
-    padding-left: 60px;
     padding-bottom: 15px;
-    padding-right: 30px;
     font-size: 12px;
     font-family:'Netflix';
     line-height: 30px;
+    text-align: center;
 }
 
 .lista > ul {
-    columns: 4;
+   
+}
+
+.idioma {
+    margin-left: 6%
+}
+
+#quatro {
+    margin-left: 4%;
+}
+
+#cinco {
+    margin-left: 0.5%
+    
 }
 
 
